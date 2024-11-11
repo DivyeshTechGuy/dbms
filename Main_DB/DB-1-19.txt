@@ -36,17 +36,6 @@ db.Teachers.insertMany([
  ])
 
 
-
-
-db.Teachers.insertMany([
-      { Tname: "Praveen", dno: 1, dname: "Computer", experience: 8, salary: 12000, date_of_joining: new Date("2015-08-01") },
-      { Tname: "Rajesh", dno: 2, dname: "IT", experience: 6, salary: 9000, date_of_joining: new Date("2018-09-01") },
-      { Tname: "Sneha", dno: 3, dname: "E&TC", experience: 10, salary: 15000, date_of_joining: new Date("2012-06-01") }
-  ])
-
-
-
-
 db.Students.insertMany([
       { Sname: "John", roll_no: 1, class: "10" },
       { Sname: "xyz", roll_no: 2, class: "10" },
