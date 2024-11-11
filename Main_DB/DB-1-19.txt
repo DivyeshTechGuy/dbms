@@ -78,7 +78,15 @@ db.Teachers.updateMany(
 db.Teachers.find({}, { Tname: 1, experience: 1, _id: 0 })
 
 
-db.Teachers.find({}, { Tname: 1, experience: 1, _id: 0 })
+db.Teachers.insertOne({
+    Tname: "Anita",
+    dno: 4,
+    dname: "Mechanical",
+    experience: 5,
+    salary: 11000,
+    date_of_joining: new Date("2017-05-15")
+})
+
 
 
 db.Teachers.updateOne(
